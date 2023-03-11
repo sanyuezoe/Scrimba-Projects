@@ -1,0 +1,111 @@
+#header_section {
+    background-image:url(image/taiyuan.jpg);
+    background-size: cover;
+    height:550px;
+    margin:10px 15px 0px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    text-align: center;
+
+
+}
+
+
+.title {
+    font-family: 'Anton', sans-serif;
+    background-color: rgba(98, 79, 16, 0.7);
+    width: 280px;
+    height:60px;
+    margin: 10px auto;
+    font-size: 300%;
+    color: white;
+    
+
+}
+
+.subtitle {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #b88855;
+    width: fit-content;
+    font-size: 150%;
+    color: white;
+}
+
+#activities_section {
+    background-color: #E3CAA5;
+    text-align: center;
+    margin: 0px 15px 0px 15px;
+    padding-top:40px;
+}
+
+.text_title {
+    margin-top:0px;
+    font-size:170%;
+}
+
+.subtext_title {
+    font-size: 130%;
+    margin-top: 17px;
+}
+
+
+#activities_section {
+    padding-top:70px;
+}
+
+#images_part {
+    display: flex;
+    align-items :center;
+    justify-content:space-evenly;
+    margin-top: 30px;
+    
+}
+
+.group {
+    width: 450px;
+}
+
+.text {
+    color: #603601;
+}
+
+.images {
+    width :200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#card {
+    display: flex;
+    width:650px;
+    height: 400px;
+    margin-top: 25px;
+    background: #CC9C75 ;
+    align-items: center;
+    border-bottom:7px solid #603601;
+
+}
+
+#guide_section {
+    margin-top:30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    text-align: center;
+
+}
+
+.wangzuxian {
+    width: 280px;
+    height: 280px;
+    margin-left: 15px;
+}
+
+#card_text {
+    margin-right: 15px;
+    margin-left: 15px;
+     
+}
