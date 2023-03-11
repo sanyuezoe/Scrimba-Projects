@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bowlby+One+SC&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="home_part">
+                <h3 class="title">HOME</h3>
+                <div class="score_background ">
+                    <h1 id="home_score" class="score">0</h1>
+                </div>
+                <button id="home_btn_one" class="btn" onclick="homeAddOne()">+1</button>
+                <button id="home_btn_two" class="btn" onclick="homeAddTwo()">+2</button>
+                <button id="home_btn_three" class="btn" onclick="homeAddThree()">+3</button>
+            </div>
+            <div class="guest_part">
+                <h3 class="title">GUEST</h3>
+                <div class="score_background ">
+                    <h1 id="guest_score" class="score">0</h1>
+                </div>
+                <button id="guest_btn_one" class="btn" onclick="guestAddOne()">+1</button>
+                <button id="guest_btn_two" class="btn" onclick="guestAddTwo()">+2</button>
+                <button id="guest_btn_three" class="btn" onclick="guestAddThree()">+3</button>
+            </div>
+        </div>
+        <div class="new-container">
+            <btn id="new-btn" class="btn" onclick="newGame()">New Game </btn>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

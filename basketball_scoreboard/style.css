@@ -1,0 +1,74 @@
+body {
+    margin:0;
+
+}
+
+.container {
+    display:flex;
+    justify-content: space-around;
+    background-color: #1A1A40;
+    width: 700px;
+    height: 400px;
+    text-align: center;
+
+}
+
+
+.title {
+    color: white;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 200%;
+}
+
+.score_background {
+    width:200px;
+    height:140px;
+    background-color: black;
+}
+
+.btn {
+    width:40px;
+    height: 40px;
+    background-color: #1A1A40;
+    font-family: 'Black Ops One', cursive;
+    font-size: 130%;
+    color: rgba(240, 225, 225, 0.925);
+    border:2px solid rgba(240, 225, 225, 0.925);
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-right:6px;
+}
+
+.btn:hover {
+    background-color:rgba(240, 225, 225, 0.925) ;
+    color:black;
+}
+
+.btn:active {
+    box-shadow: 2px 2px 5px rgba(240, 225, 225, 0.925);
+}
+
+.score {
+    color:red;
+    font-family: 'Black Ops One', cursive;
+    font-size: 250%;
+    padding-top: 42px;
+}
+
+#new-btn {
+    background-color: #1A1A40;
+    font-family: 'Black Ops One', cursive;
+    font-size: 130%;
+    color: rgba(240, 225, 225, 0.925);
+    border:2px solid rgba(240, 225, 225, 0.925);
+
+}
+
+.new-container{
+    background-color: #1A1A40;
+    width: 700px;
+    padding-bottom: 15px;
+    text-align: center;
+
+}
+
