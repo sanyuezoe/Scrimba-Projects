@@ -2,9 +2,11 @@
 all the Scrimba frontend Developer Career Path projects
 
 
-PetGram：https://sanyuezoe.github.io/Scrimba-Projects/PetGram/
+Pet Gram：https://sanyuezoe.github.io/Scrimba-Projects/PetGram/
 
-Password generator：https://sanyuezoe.github.io/Scrimba-Projects/password_generator/
+Cat Meme Picker: https://sanyuezoe.github.io/Scrimba-Projects/catsMemePicker/
+
+Password Generator：https://sanyuezoe.github.io/Scrimba-Projects/password_generator/
 
 Unit Converter： https://sanyuezoe.github.io/Scrimba-Projects/unit_converter/
 
