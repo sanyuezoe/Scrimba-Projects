@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Restaurant Ordering Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="banner-text">
+                <h2>A Chinese Diner</h2>
+                <p class="intro">The best Chinese food in town.</p>
+            </div>
+        </header>
+        <main>
+            <div id="menu">
+            </div>
+            <div id="bottom-part">
+                <h3>Your order</h3>
+                <div id="check-out">
+                </div>
+                <hr>
+                <div id="total-price">
+                </div>
+            <button id="complete-btn">Complete order</button>
+            </div>
+        </main>
+
+        <div class="card-form" id="card-form">
+            <h4>Enter card details</h4>
+            <form>
+                <input type="text" id="card-name" name="card-name" placeholder="Enter your name" required>
+                <input type="text" id="card-number" name="card-number" placeholder="Enter card number" required>
+                <input type="text" id="card-CVV" name="card-CVV" placeholder="Enter CVV"  required>
+            </form>
+			<button type="submit" class="pay-btn" id="pay-btn">PAY</button>
+		</div>
+	<script type="module" src="index.js"></script>
+    </body>
+</html>
