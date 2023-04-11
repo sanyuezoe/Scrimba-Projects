@@ -12,7 +12,7 @@ const catsData = {
         name: "Tutu",
         avatar: "images/cat-tutu.jpg",
         age: 3,
-        bio: "Dummy beauty. Married to a handsome boy with Xiangtai mom. [poly relationship]",
+        bio: "Dummy beauty, in a poly relationship",
         hasBeenSwiped: false,
         hasBeenLiked: false
     },
@@ -21,7 +21,7 @@ const catsData = {
         name: "Bubu",
         avatar: "images/cat-bubu.jpg",
         age: 3,
-        bio: "我很黏人，我是舔狗",
+        bio: "I like watching the birds from the living room window and being outside",
         hasBeenSwiped: false,
         hasBeenLiked: false
     }
