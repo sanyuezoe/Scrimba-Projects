@@ -1,0 +1,118 @@
+*, *::before, *::after {
+    box-sizing:border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    border:black 5px solid;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+/* Typography  */
+
+h3{
+    color:whitesmoke;
+    text-shadow: 2px 2px 8px #868686;
+}
+
+p{
+    color:rgba(208, 208, 208, 0.853);
+}
+
+/* layout */
+
+body, h3, p {
+    margin: 0;
+    max-width:500px;
+}
+
+header, .button-container, .name-age{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-text, .like-icon,.nope-icon  {
+    position: absolute;
+}
+
+header{
+    justify-content: space-between;
+    margin:0.6em;
+}
+
+header img, .button-container button img{
+    height:25px;
+}
+
+
+.profile-img{
+    max-width: 100%;
+    width:100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 2%;
+    margin:0;
+}
+
+.profile-text > * {
+    margin:0.5em 0 0;
+}
+
+.profile-text{
+    margin-top:-5em;
+    margin-left:0.625em
+}
+
+.swipe-all{
+    text-align: center;
+    margin:17em 3em;
+}
+
+/* button  */
+
+.button-container{
+    justify-content: center;
+    margin-top:1.5em;
+}
+
+.button-container button{
+    background-color: white;
+    padding:1em;
+    border-radius: 50%;
+    border:none;
+    box-shadow: 2px 2px 10px rgb(172, 171, 171);
+    margin:0 1em;
+}
+
+#cross-btn:hover, :active {
+    background-color: rgba(229, 34, 55, 0.31);
+
+}
+
+#heart-btn:hover, :active{
+    background-color: rgba(66, 229, 183, 0.31);
+}
+
+.like-icon,.nope-icon {
+    height:80px;
+    margin-top:2em;
+    display:none;
+}
+
+.like-icon{
+    transform: rotate(-20deg);
+    margin-left:1em;
+}
+
+.nope-icon {
+    transform: rotate(20deg);
+    margin-left:18em;
+}
+
+.like-icon.show, .nope-icon.show {
+    display:block;
+}
+
+
