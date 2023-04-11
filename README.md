@@ -1,6 +1,8 @@
 # Scrimba-Projects
 all the Scrimba frontend Developer Career Path projects
 
+TinCat: https://sanyuezoe.github.io/Scrimba-Projects/TinCat
+
 Restaurant ordering app: https://sanyuezoe.github.io/Scrimba-Projects/Restaurant_ordering_app
 
 Pet Gram：https://sanyuezoe.github.io/Scrimba-Projects/PetGram/
