@@ -108,7 +108,7 @@ header img, .button-container button img{
 
 .nope-icon {
     transform: rotate(20deg);
-    margin-left:18em;
+    margin-left:15e,;
 }
 
 .like-icon.show, .nope-icon.show {
