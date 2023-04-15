@@ -1,0 +1,14 @@
+.profile {
+    margin:0 2em; 
+    text-align: center;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+
+.profile img {
+    width:50%;
+    border:10px #FFE6B7 solid;
+    border-radius: 50%;
+}
+
