@@ -9,16 +9,12 @@ body{
     font-family: 'Raleway', sans-serif;
     font-size:14px;
     background-color: #F3F3F3;
-    min-width:360px;
 }
 
-/* Typography  
-
-color: #FFFFFF
-#F3F3F3
-#E6F6F5
-#FFE6B7
-#0F1020*/
+.container {
+  min-width:320px;
+  width:100%;
+}
 
 /****Layout*****/
 
@@ -47,14 +43,14 @@ header{
 
 /*Blog-part */
 
-.blog {
+main {
     margin:1em 0.5em;
     padding:1em 0.5em;
     border:3px solid #FFE6B7;
     border-radius: 30px;
 }
 
-.blog img{
+main img{
     border-radius: 10px;
     width:100%;
     object-fit : cover ;
@@ -76,7 +72,7 @@ header{
     left: 16px;
 }
 
-.blog-card .blog-card-date {
+section .blog-card-date {
     margin-top:1em;
 }
 
@@ -88,7 +84,7 @@ header{
     line-height:150%;
 }
 
-.blog-card {
+section {
     margin:2em 0;
     padding:1em;
     background-color:#e7faf8;
@@ -222,16 +218,29 @@ footer h3 {
 
 
 
-
-
-
-/*********** Laptop ***********/
-
-@media only screen and (min-width:550px) {
-    body{
-        font-size:20px;
-
+  @media only screen and (min-width: 550px) and (max-width: 767px) {
+    /* Styles for tablet devices */
+    body {
+      font-size: 22px;
     }
 
+    .title {
+      font-size: 2.5rem;
+  }
+  
+  
+    /* Other styles specific to tablet devices */
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* Styles for desktop devices */
+    body {
+      font-size: 24px;
+    }
 
-}
+    .title {
+      font-size: 3rem;
+  }
+  
+  
+  }
