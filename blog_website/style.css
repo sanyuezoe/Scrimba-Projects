@@ -90,6 +90,7 @@ section {
     padding:1em;
     background-color:#e7faf8;
     border-radius: 10px;
+    max-width: 92vw;
 }
 
 .view-more {
